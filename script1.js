@@ -49,7 +49,7 @@ resetButton.addEventListener("click", () => {
   resetRound();
 });
 
-//FUNCTIONS
+//FUNCTIONS   //the card result to compare
 function shuffleCards() {
   let selectedCards = ["❤️","🌸","🌸"];
   let numberOfCards = selectedCards.length;
@@ -131,7 +131,7 @@ function matchingTest(flippedCards, whichFlippedCards) {
     });
   }
 
-  //match cards and determine result
+  //match cards and determine result the result will be appear on the website
 }
 
 function announceResult() {
@@ -144,6 +144,8 @@ function announceResult() {
     loseSound.play();
   }
 }
+
+//here the result will be count and send the result to the screen
 
 function newRound() {
   //update counter
