@@ -113,7 +113,8 @@
     background-image: url(card.png);
     background-size:cover;
     
-    color: white;
+    color: black;
+   
     font-size: 80px;
     border-radius: 1rem;
     display: -webkit-box;
@@ -231,13 +232,3 @@
     --s: #0005;
     transition: none;
   }
-
-  a{
-    display: flex;
-    gap: 5px;
-    fle
-
-  }
-  
- 
-  
